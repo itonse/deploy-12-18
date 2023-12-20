@@ -1,10 +1,6 @@
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/site1
+    url: jdbc:mysql://localhost:3306/site1_prod
     username: root
     password: 3306
-  jpa:
-    hibernate:
-      ddl-auto: update
-    show-sql: true
